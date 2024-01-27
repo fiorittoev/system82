@@ -1,11 +1,22 @@
+html{
+    height:100%;
+}
+body
+{
+    background-image:linear-gradient(180deg,#ffffff,#ababab);
+    height:100%;
+    margin:0;
+    background-repeat:norepeat;
+}
 ul{
     background-color: black;
     margin:0;
     padding:0;
     overflow:hidden
 }
-#grad{
-    background-image:linear-gradient(white,grey);
+img
+{
+width: 500px;
 }
 li{
     color:black;

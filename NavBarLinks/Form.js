@@ -33,17 +33,20 @@ const validateInputs = () => {
     if(usernameValue === ''){
         setError(username, 'Username is required.');
     }else{
-        setSuccess(username);
+        setSuccess(username,'Welcome!');
     }
 
-    if(passwordValue === ''){
+    if(passwordValue === '')
+    {
         setError(password, 'Password is required.');
-    }else if (passwordValue.length < 8){
+    }
+    else if (passwordValue.length < 8)
+    {
         setError(password, 'Password must be at least 8 characters.');
-    }else{
+    }
+    else
+    {
         setSuccess(password);
     }
-
-
 };
 

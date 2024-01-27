@@ -39,13 +39,12 @@ const validateInputs = () => {
     {
         setError(password, 'Password is required.');
     }
-    else if (passwordValue.length < 8)
-    {
-        setError(password, 'Password must be at least 8 characters.');
-    }
-    else
+    else if(password === "hiredapplicant")
     {
         setSuccess(password);
         window.location.href= '../EmployeeAccess/employeemain.html';
+    }else
+    {
+        setError(password, 'Hint: kxuhlgcpudgz');
     }
 };

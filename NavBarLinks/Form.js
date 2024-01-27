@@ -47,6 +47,7 @@ const validateInputs = () => {
     else
     {
         setSuccess(password);
+        window.location.href= '../EmployeeAccess/employeemain.html';
     }
 };
 

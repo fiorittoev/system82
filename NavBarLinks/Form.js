@@ -4,7 +4,6 @@ const password = document.getElementById('password');
 
 form.addEventListener('submit', e => {
     e.preventDefault();
-
     validateInputs();
 });
 
@@ -50,4 +49,3 @@ const validateInputs = () => {
         window.location.href= '../EmployeeAccess/employeemain.html';
     }
 };
-

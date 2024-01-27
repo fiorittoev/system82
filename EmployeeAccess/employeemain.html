@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script type="./NavBarLinks/Form.js">
-    </script>
     <title>System82 Employees</title>
     <link rel="stylesheet" href= "employeestyle.css">
 </head>
@@ -12,11 +10,12 @@
     <li><a href="./NavBarLinks/About.html">About</a></li>
 </ul>
 
-<h1>
-    Welcome,
-    <script>
-    document.write(username);
+<h1 id="user">
+    Welcome, User
+    <script src="../NavBarLinks/Form.js">
+        document.getElementById("user").innerHTML=welcome;
     </script>
+
 </h1>
 
 <div style="text-align: center;">

@@ -8,15 +8,26 @@ li{
     color:black;
     float:left;
 }
-
 li a{
+    font-family:Arial,Helvetica,sans-serif;
     display: block;
     color:white;
     text-align:center;
-    width: 100px;
-    padding: 14px 16px;
+    width: 350px;
+    padding: 14px 14px;
     text-decoration: none;
 }
 li a:hover{
     background-color: grey;
+}
+h1
+{
+    font-family:Arial,Helvetica,sans-serif;
+}
+h2
+{
+    font-family:Arial,Helvetica,sans-serif;
+}
+p{
+    font-family: Arial,Helvetica,sans-serif;
 }

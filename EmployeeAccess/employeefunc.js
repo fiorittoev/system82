@@ -1,4 +1,4 @@
-//Script from W3 Schools
+//Script partially from W3 Schools
 // Make the DIV element draggable:
 dragElement(document.getElementById("key"));
 

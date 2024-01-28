@@ -14,10 +14,12 @@ ul{
     padding:0;
     overflow:hidden
 }
-#mydiv{
+#key{
     position:absolute;
 }
-
+#keyheader{
+    cursor:move;
+}
 img
 {
 width: 500px;

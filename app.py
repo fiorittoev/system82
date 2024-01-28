@@ -15,21 +15,17 @@ def predict():
     message = {"answer": response}
     return jsonify(message)
 
-@app.route("/")
-def home():
-    return render_template('./templates/main.html')
-
 @app.route("/About")
 def about():
-    return render_template('./templates/NavBarLinks/About.html')
+    return render_template("About.html")
 
-@app.route("/CreateAccount.html")
+@app.route("/CreateAccount")
 def signUp():
-    return render_template('./templates/NavBarLinks/CreateAccount.html')
+    return render_template('CreateAccount.html')
 
-@app.route("/FAQ.html")
+@app.route("/FAQ")
 def faq():
-    return render_template('./templates/FAQ.html')
+    return render_template('FAQ.html')
  
 if __name__ == "__main__":
     app.run(debug=True)

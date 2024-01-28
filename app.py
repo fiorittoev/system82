@@ -54,6 +54,10 @@ def stage3():
 @app.route("/rahe")
 def secretcord():
     return render_template('secret.html')
+@app.route("/win")
+def win():
+    return render_template('win.html')
+
 
 
 if __name__ == "__main__":

@@ -37,7 +37,7 @@ function dragElement(elmnt) {
 function validateCode() {
     var codeInputValue = document.getElementById("codeInput").value;
     if (codeInputValue==="3157") {
-        window.open('/Tier3');
+        window.open('Tier3');
     } else {
         alert("INCORRECT CODE");
     }

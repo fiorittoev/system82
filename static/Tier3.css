@@ -1,4 +1,5 @@
 body {
+      text-align:center;
       background-color: black;
       color: white;
       }
@@ -11,8 +12,11 @@ body {
 .flicker {
     animation: flicker 1s infinite;
 }
-
 p{
-  color:black
+  color:black;
+  text-align:center;
+}
+p1{
+  color:white;
   text-align:center;
 }

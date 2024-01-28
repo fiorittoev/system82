@@ -45,7 +45,11 @@ def employeeabout():
 
 @app.route("/EmployeeValues")
 def employeevalues():
-    return render_template('employeeAbout.html')
+    return render_template('employeeValues.html')
+
+@app.route("/Tier3")
+def stage3():
+    return render_template('Tier3.html')
 
 @app.route("/rahe")
 def secretcord():

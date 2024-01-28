@@ -15,19 +15,15 @@ def predict():
     message = {"answer": response}
     return jsonify(message)
 
-@app.route("/")
-def home():
-    return render_template('/main.html')
-
-@app.route("/home/About")
+@app.route("/About")
 def about():
-    return redirect('/NavBarLinks/About.html')
+    return render_template('About.html')
 
-@app.route("/home/CreateAccount")
+@app.route("/CreateAccount")
 def signUp():
     return redirect('/NavBarLinks/CreateAccount.html')
 
-@app.route("/home/FAQ")
+@app.route("/FAQ")
 def faq():
     return redirect('/NavBarLinks/FAQ.html')
  

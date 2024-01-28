@@ -11,3 +11,8 @@ body {
 .flicker {
     animation: flicker 1s infinite;
 }
+
+p{
+  color:black
+  text-align:center;
+}

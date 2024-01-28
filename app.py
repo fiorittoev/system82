@@ -17,7 +17,7 @@ def predict():
 
 @app.route("/About")
 def about():
-    return render_template('About.html')
+    return render_template("About.html")
 
 @app.route("/CreateAccount")
 def signUp():

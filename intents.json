@@ -12,7 +12,6 @@
         ],
         "responses": [
           "Hey :-)",
-          "Hello, thanks for visiting",
           "Hi there, what can I do for you?",
           "Hi there, how can I help?"
         ]
@@ -21,9 +20,9 @@
         "tag": "goodbye",
         "patterns": ["Bye", "See you later", "Goodbye"],
         "responses": [
-          "See you later, thanks for visiting",
-          "Have a nice day",
-          "Bye! Come back again soon."
+          "I hope this helps!",
+          "Good luck :)",
+          "Bye!"
         ]
       },
       {
@@ -32,40 +31,57 @@
         "responses": ["Happy to help!", "Any time!", "My pleasure"]
       },
       {
-        "tag": "items",
+        "tag": "puzzleLogin",
         "patterns": [
-          "Which items do you have?",
-          "What kinds of items are there?",
-          "What do you sell?"
+          "How do I sign up?",
+          "What is the login?",
+          "How do I create an account?",
+          "What is the password?"
         ],
         "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
+          "Have you applied first?",
+          "Remember to apply",
+          "Check our FAQ more more details"
         ]
       },
       {
-        "tag": "payments",
+        "tag": "puzzleUser",
         "patterns": [
-          "Do you take credit cards?",
-          "Do you accept Mastercard?",
-          "Can I pay with Paypal?",
-          "Are you cash only?"
+          "What is the username?"
         ],
         "responses": [
-          "We accept VISA, Mastercard and Paypal",
-          "We accept most major credit cards, and Paypal"
+          "Your username is to your discretion"
         ]
       },
       {
-        "tag": "delivery",
+        "tag": "puzzleDrag",
         "patterns": [
-          "How long does delivery take?",
-          "How long does shipping take?",
-          "When do I get my delivery?"
+          "Where is the button?",
+          "How do I type my answer?",
+          "What is the next puzzle?"
         ],
         "responses": [
-          "Delivery takes 2-4 days",
-          "Shipping takes 2-4 days"
+          "Hm...doesn't the home page look a little off?"
+        ]
+      },
+      {
+        "tag": "puzzleColor",
+        "patterns": [
+          "What do I type in the box?"
+        ],
+        "responses": [
+          "Take a look at the colors and numbers!"
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "I need help",
+          "I don't know what to do",
+          "I am stuck right now"
+        ],
+        "responses": [
+          "Please be more specific"
         ]
       },
       {

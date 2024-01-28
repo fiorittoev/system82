@@ -19,31 +19,33 @@ const setError = (element, message) => {
 const setSuccess = element => {
     const inputControl = element.parentElement;
     const errorDisplay = inputControl.querySelector('.error');
-
     errorDisplay,innerText = '';
     inputControl.classList.add('success');
     inputControl.classList.remove('error');
 };
 
 const validateInputs = () => {
+
     const usernameValue = username.value.trim();
     const passwordValue = password.value.trim();
 
     if(usernameValue === ''){
         setError(username, 'Username is required.');
-    }else{
-        setSuccess(username,'Welcome!');
     }
-
+    else{
+        setSuccess(username);
+    }
     if(passwordValue === '')
     {
         setError(password, 'Password is required.');
     }
-    else if(password === "hiredapplicant")
+    else if(passwordValue === "hiredapplicant")
     {
         setSuccess(password);
         window.location.href= '../EmployeeAccess/employeemain.html';
-    }else
+
+    }
+    else
     {
         setError(password, 'Hint: rmpohyztjsgyxx');
     }

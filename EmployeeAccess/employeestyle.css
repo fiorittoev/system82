@@ -14,6 +14,10 @@ ul{
     padding:0;
     overflow:hidden
 }
+#mydiv{
+    position:absolute;
+}
+
 img
 {
 width: 500px;

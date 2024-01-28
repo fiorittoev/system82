@@ -39,7 +39,7 @@ const validateInputs = () => {
     {
         setError(password, 'Password is required.');
     }
-    else if(password === "hiredapplicant")
+    else if(passwordValue === "hiredapplicant")
     {
         setSuccess(password);
         window.location.href= '../EmployeeAccess/employeemain.html';

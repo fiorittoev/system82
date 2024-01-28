@@ -1,0 +1,13 @@
+body {
+      background-color: black;
+      color: white;
+      }
+@keyframes flicker {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+    100%{opacity:1;}
+}
+
+.flicker {
+    animation: flicker 1s infinite;
+}

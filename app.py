@@ -44,8 +44,12 @@ def employeeabout():
     return render_template('employeeAbout.html')
 
 @app.route("/EmployeeValues")
-def employeehvalues():
+def employeevalues():
     return render_template('employeeAbout.html')
+
+@app.route("/rahe")
+def secretcord():
+    return render_template('secret.html')
 
 
 if __name__ == "__main__":

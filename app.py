@@ -26,6 +26,9 @@ def signUp():
 @app.route("/FAQ")
 def faq():
     return render_template('FAQ.html')
+@app.route("/PreTest")
+def faq():
+    return render_template('ApplyNow.html')
  
 if __name__ == "__main__":
     app.run(debug=True)

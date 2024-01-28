@@ -17,19 +17,19 @@ def predict():
 
 @app.route("/")
 def home():
-    return render_template('./templates/main.html')
+    return render_template('/main.html')
 
-@app.route("/About")
+@app.route("/home/About")
 def about():
-    return render_template('./templates/NavBarLinks/About.html')
+    return redirect('/NavBarLinks/About.html')
 
-@app.route("/CreateAccount.html")
+@app.route("/home/CreateAccount")
 def signUp():
-    return render_template('./templates/NavBarLinks/CreateAccount.html')
+    return redirect('/NavBarLinks/CreateAccount.html')
 
-@app.route("/FAQ.html")
+@app.route("/home/FAQ")
 def faq():
-    return render_template('./templates/FAQ.html')
+    return redirect('/NavBarLinks/FAQ.html')
  
 if __name__ == "__main__":
     app.run(debug=True)

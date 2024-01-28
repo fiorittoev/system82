@@ -26,9 +26,27 @@ def signUp():
 @app.route("/FAQ")
 def faq():
     return render_template('FAQ.html')
+
 @app.route("/PreTest")
-def faq():
+def pretest():
     return render_template('ApplyNow.html')
- 
+
+@app.route("/EmployeeHome")
+def employeehome():
+    return render_template('employeemain.html')
+
+@app.route("/EmployeeFAQ")
+def employeefaq():
+    return render_template('employeeFAQ.html')
+
+@app.route("/EmployeeAbout")
+def employeeabout():
+    return render_template('employeeAbout.html')
+
+@app.route("/EmployeeValues")
+def employeehvalues():
+    return render_template('employeeAbout.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)

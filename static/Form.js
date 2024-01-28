@@ -42,7 +42,7 @@ const validateInputs = () => {
     else if(passwordValue === "hiredapplicant")
     {
         setSuccess(password);
-        window.location.href= '../EmployeeAccess/employeemain.html';
+        window.location.href= '/EmployeeHome';
 
     }
     else

@@ -21,11 +21,11 @@ def about():
 
 @app.route("/CreateAccount")
 def signUp():
-    return redirect('/NavBarLinks/CreateAccount.html')
+    return render_template('CreateAccount.html')
 
 @app.route("/FAQ")
 def faq():
-    return redirect('/NavBarLinks/FAQ.html')
+    return render_template('FAQ.html')
  
 if __name__ == "__main__":
     app.run(debug=True)

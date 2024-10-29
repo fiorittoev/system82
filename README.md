@@ -8,6 +8,7 @@ PS. 82 == Angel
 
 By Evan Fioritto, Richard Glosser, Amulya Gundlapally, Hana Ahmed
 
-Extenions, websites, and other services used:
-  *Godaddy MLH free website domain
-  *Netlify website setup
+# Extenions, websites, and other services used:
+  Godaddy MLH free website domain,
+  Netlify website setup
+  
